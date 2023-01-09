@@ -39,7 +39,7 @@ const Home = ({ data }) => {
             <>
 
     
-              <h1 style={{ color: "white" }}>{el.full_name}</h1>
+              <h1 >{el.full_name}</h1>
 
               <Link href={el.html_url}>
 

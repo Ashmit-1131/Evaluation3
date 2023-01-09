@@ -6,7 +6,7 @@ const Project = ({data}) => {
 
 
   return (
-    <div style={{display:"flex",gridTemplateColums:repeat("1","3fr")}}>
+    <div>
 
 
         {
@@ -16,7 +16,7 @@ const Project = ({data}) => {
                     <>
                         
                   
-                    <h1 style={{color:"white"}}>{el.full_name}</h1>
+                    <h1 >{el.full_name}</h1>
 
                            <Link href={el.html_url}>
 
